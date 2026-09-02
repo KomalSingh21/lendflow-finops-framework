@@ -1,0 +1,13 @@
+environment,business_unit,instances,candidates,current_monthly_cost,projected_monthly_waste
+development,lending,33,8,8730,1060.0
+development,payments,33,8,8760,1060.0
+development,platform,34,9,9010,1200.0
+production,lending,34,9,8330,1050.0
+production,payments,33,8,8190,980.0
+production,platform,33,8,7980,980.0
+sandbox,lending,34,9,3995,557.5
+sandbox,payments,33,8,3820,470.0
+sandbox,platform,33,8,3935,470.0
+staging,lending,33,8,3190,390.0
+staging,payments,34,9,3315,425.0
+staging,platform,33,8,3245,390.0

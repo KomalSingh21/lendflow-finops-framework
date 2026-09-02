@@ -1,0 +1,22 @@
+Dashboard,Widget,Data source,Refresh,Audience,Actionable insight
+Executive,Total monthly spend,Billing/Cost Explorer,Daily,CFO/CTO,Current spend against target
+Executive,Budget vs actual,Cost Explorer + budgets,Daily,CFO/CTO,Variance and threshold risk
+Executive,12-month cost trend,Cost Explorer,Daily,CFO/CTO,Structural spend trajectory
+Executive,Cost per transaction,Cost + transaction metric,Daily,CFO/CTO,Unit economics
+Executive,Top 5 services,Cost Explorer,Daily,CFO/CTO,Largest cost drivers
+Executive,MoM change %,Cost Explorer,Daily,CFO/CTO,Acceleration/deceleration
+Executive,3-month forecast,Cost history + forecast,Daily,CFO/CTO,Forward budget risk
+Executive,RI/SP coverage ratio,RI/SP utilization/coverage,Daily,CFO/CTO,Commitment exposure
+Engineering Manager,Team spend breakdown,Cost allocation/tagging,Daily,Managers,Teams driving variance
+Engineering Manager,CPU/memory heatmap,CloudWatch,Hourly,Managers,Under/over-utilized resources
+Engineering Manager,Right-sizing queue,Optimization analysis,Daily,Managers,Savings actions to execute
+Engineering Manager,Tag compliance scorecard,Tag compliance,Daily,Managers,Allocation/control gaps
+Engineering Manager,Anomaly alert feed,Cost Anomaly/CloudWatch,Near-real-time,Managers,New abnormal spend
+Engineering Manager,RI coverage by family,RI inventory,Daily,Managers,Commitment gaps
+Engineering Manager,Spot vs On-Demand mix,EC2 billing/inventory,Hourly,Managers,Pricing-model mix
+Team,Service daily cost,Cost Explorer/custom allocation,Daily,Team,Daily spend changes
+Team,Deployment cost impact,Deployment + cost metrics,Hourly/daily,Team,Cost delta per deployment
+Team,Scaling event log,Auto Scaling/CloudWatch,Near-real-time,Team,Capacity events and cost effect
+Team,Idle resource alerts,Inventory + automation,Hourly,Team,One-click remediation
+Team,Cost per endpoint/API,API metrics + cost,Daily,Team,Expensive endpoints
+Team,Daily cost trend + anomalies,Cost + anomaly feed,Daily,Team,Abnormal daily movement

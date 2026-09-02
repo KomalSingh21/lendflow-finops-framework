@@ -1,0 +1,9 @@
+KPI,Definition,Target,Cadence,Owner
+Cost reduction,Monthly savings ($),"≥ $60,000/month target",Monthly,CFO
+Cost reduction %,Spend reduction vs baseline,≥33% within 90 days,Monthly,CFO
+Cost per transaction,AWS cost / transaction volume,Downward trend; target approved quarterly,Monthly,CFO/CTO
+Cost per customer,AWS cost / active customer,Downward trend; target approved quarterly,Monthly,CFO/Product
+Tag compliance,Compliant resources / total, >95%,Daily/Monthly,FinOps/Engineering
+Anomaly MTTD,Detection time,<4 hours,Monthly,FinOps/Engineering
+RI utilization,Utilized RI capacity / purchased capacity,>85%,Monthly,FinOps
+Savings realization,Realized savings / approved forecast,≥90% of approved plan,Monthly,FinOps

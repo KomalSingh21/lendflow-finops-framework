@@ -1,0 +1,5 @@
+pattern,trigger_window,predictive_rule,guardrail
+Month-end processing,Last 3 calendar days of month,Pre-scale analytics/document/notification capacity by 30% at 06:00 IST; hold through 23:00 IST; scale back only after backlog and latency normalize.,Validate against prior 4 weeks; cap at service max.
+Salary-day disbursement peak,"1st and 15th, 09:00–15:00 IST",Pre-scale Payment Gateway + Loan Application API by 25% 30 min before window; Credit Scoring +25% as queue grows.,Payment tier remains On-Demand; health checks mandatory.
+Marketing campaign,Campaign start/end supplied ≥24h ahead,Pre-scale Loan Application API by 40% 30 min before campaign; warm capacity retained for 60 min after end.,Use campaign traffic forecast and rollback if forecast is wrong.
+Quarter-end reporting,Last 5 business days of quarter,Pre-scale Reporting/Analytics by 50% from 08:00 IST; enable Spot analytics workers up to configured ceiling.,Compliance/data-locality checks before increasing capacity.

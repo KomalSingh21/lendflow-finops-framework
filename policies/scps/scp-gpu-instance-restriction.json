@@ -1,0 +1,28 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "DenyGpuInstancesExceptApprovedAccounts",
+      "Effect": "Deny",
+      "Action": "ec2:RunInstances",
+      "Resource": "*",
+      "Condition": {
+        "ForAnyValue:StringLike": {
+          "ec2:InstanceType": [
+            "p*.*",
+            "g*.*",
+            "inf*.*",
+            "trn*.*",
+            "dl*.*"
+          ]
+        },
+        "StringNotEquals": {
+          "aws:PrincipalAccount": [
+            "111111111111",
+            "222222222222"
+          ]
+        }
+      }
+    }
+  ]
+}

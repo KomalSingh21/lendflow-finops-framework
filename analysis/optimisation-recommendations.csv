@@ -1,0 +1,19 @@
+id,description,category,monthly_savings,annual_savings,effort_person_days,risk,compliance,dependencies,priority
+R01,Move eligible Standard storage to IA/Glacier lifecycle,Storage,5549.01,66588.12,4,Low,SOC2 retention review,Inventory + retention policy,High impact / Low effort
+R02,Clean up idle/unattached EBS and stale storage,Storage,750.0,9000.0,3,Low,Review regulated storage first,Ownership validation,High impact / Low effort
+R03,Right-size sustained low-CPU EC2,Compute,9032.5,108390.0,10,Medium,RBI redundancy; PCI isolation,Performance baseline + rollback,High impact / Low effort
+R04,Schedule non-production shutdown windows,Compute,1800.0,21600.0,5,Low,No production/compliance scope,Environment inventory + approval,High impact / Low effort
+R05,Optimise cross-AZ service placement,Data transfer,8500.0,102000.0,12,Medium,PCI network segmentation,Traffic map + latency validation,High impact / High effort
+R06,Reduce unnecessary cross-region transfer,Data transfer,9000.0,108000.0,12,High,GDPR/data localisation,Data classification + region map,High impact / High effort
+R07,Compress/cache internet egress,Data transfer,6500.0,78000.0,10,Medium,PCI boundary review,Caching benchmark,High impact / High effort
+R08,Consolidate inefficient VPC peering paths,Data transfer,6574.46,78893.52,8,Medium,Network segmentation review,Dependency map,High impact / High effort
+R09,Conditional RDS right-sizing,Database,4672.34,56068.06,10,High,RBI redundancy; PCI/SOC2,CPU/memory/IOPS telemetry,High impact / High effort
+R10,Evaluate Aurora Serverless for variable workloads,Database,5840.42,70085.04,15,High,Architecture/compliance review,Variability + compatibility test,High impact / High effort
+R11,Consolidate underutilised read replicas after validation,Database,1000.0,12000.0,8,High,RBI minimum replica count,Replica utilisation evidence,Medium impact / High effort
+R12,Optimise RI/Savings Plan coverage on stable baseline,RI/SP,172.50983919999996,2070.1180703999994,5,Medium,Preserve SLO capacity,3+ month baseline,High impact / Low effort
+R13,Move batch/analytics to diversified Spot pools,Spot,508.80711,6105.6853200000005,7,Medium,No regulated production dependency,Checkpointing + fallback,Medium impact / Low effort
+R14,Raise tag compliance above 95%,Governance,0.0,0.0,8,Low,Auditability/data classification,Taxonomy + policy-as-code,Low impact / Low effort
+R15,Deploy automated cost anomaly routing,Governance,0.0,0.0,10,Medium,Audit/incident routing controls,CAD/CloudWatch + owner map,Low impact / Low effort
+R16,Monthly FinOps cost-owner review,Governance,0.0,0.0,6,Low,Align with compliance reporting,Owner map + cadence,Low impact / Low effort
+R17,Budget guardrails for new services/environments,Governance,0.0,0.0,4,Low,Change-management review,Budgets + notifications,Low impact / Low effort
+R18,Measure cost per loan application/product unit,Unit economics,0.0,0.0,7,Low,No direct control impact,Usage/revenue allocation,Low impact / Low effort

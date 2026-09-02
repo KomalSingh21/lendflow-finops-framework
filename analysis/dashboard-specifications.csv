@@ -1,0 +1,4 @@
+Audience,Data sources,Refresh,Permissions,Primary actionable insight
+Executive,AWS Cost Explorer + billing summary + CloudWatch/custom metrics,"Daily; cost widgets daily, operational widgets hourly","CFO, CTO: view; FinOps: edit","Surface total spend, budget risk, savings progress and forecast risk."
+Engineering Manager,Cost Explorer + CloudWatch + tagging + rightsizing/anomaly datasets,Hourly for operational widgets; daily for cost allocation,Engineering managers: view; FinOps/service owners: edit,"Prioritize engineering actions by utilization, savings, compliance and anomalies."
+Individual Team,Cost Explorer + CloudWatch + deployment/scaling/custom metrics,Hourly operational; daily cost trend,Team members: view; service owner: edit,Connect deployments and scaling events to service-level cost and actionable waste.

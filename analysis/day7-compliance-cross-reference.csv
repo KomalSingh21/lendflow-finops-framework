@@ -1,0 +1,9 @@
+area,status,constraint,guardrail
+Compute right-sizing,Review required,RBI minimum redundancy; PCI isolation,Preserve required multi-AZ/isolated capacity
+Database optimisation,Review required,RBI minimum replica counts; PCI/SOC2,"Validate redundancy, audit logging and isolation"
+Storage lifecycle,Review required,SOC2 immutable retention 12+ months,Exclude compliance/audit logs
+Data transfer,Review required,GDPR/data localisation; PCI isolation,Keep restricted data in approved regions
+RI/SP,Review required,Production SLO/capacity risk,Commit only stable validated usage
+Spot,Review required,PCI isolation; RBI redundancy; 99.95% SLA,Only interruptible non-critical workloads
+Tagging,Review required,Auditability/data classification,No sensitive data in tags
+Anomaly alerting,Review required,Audit/incident controls,Avoid sensitive payloads in Slack/email

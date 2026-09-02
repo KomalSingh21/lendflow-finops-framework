@@ -1,0 +1,42 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "DenyRunInstancesWithoutRequiredTags",
+      "Effect": "Deny",
+      "Action": "ec2:RunInstances",
+      "Resource": "*",
+      "Condition": {
+        "Null": {
+          "aws:RequestTag/business_unit": "true",
+          "aws:RequestTag/product": "true",
+          "aws:RequestTag/environment": "true",
+          "aws:RequestTag/cost_centre": "true",
+          "aws:RequestTag/team": "true"
+        }
+      }
+    },
+    {
+      "Sid": "DenyCreateTagsWithoutRequiredKeys",
+      "Effect": "Deny",
+      "Action": "ec2:CreateTags",
+      "Resource": "*",
+      "Condition": {
+        "ForAllValues:StringNotEquals": {
+          "aws:TagKeys": [
+            "business_unit",
+            "product",
+            "environment",
+            "cost_centre",
+            "team",
+            "service",
+            "created_by",
+            "ttl",
+            "compliance_scope",
+            "data_classification"
+          ]
+        }
+      }
+    }
+  ]
+}

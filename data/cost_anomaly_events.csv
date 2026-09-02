@@ -1,0 +1,81 @@
+date,service,anomaly_type,expected_cost,actual_cost,root_cause,severity
+2026-03-03,Compute,runaway-autoscaling,2460.51,4921.03,misconfigured max capacity,P2
+2026-03-11,Storage,deployment-spike,2274.2,2842.74,large deployment,P4
+2026-01-10,Database,unexpected-egress,556.36,1112.72,cross-region transfer,P2
+2026-03-29,Data Transfer,idle-resource-growth,1218.07,2436.15,non-prod left running,P2
+2026-03-03,Networking,storage-growth,1357.23,4071.69,missing lifecycle policy,P1
+2026-02-19,Monitoring,unbudgeted-service,476.4,1429.2,new service launched,P1
+2026-06-05,Security & Compliance,runaway-autoscaling,1845.69,5537.07,misconfigured max capacity,P1
+2026-06-10,Messaging,deployment-spike,1629.28,2443.93,large deployment,P3
+2026-04-27,Kubernetes/EKS,unexpected-egress,2389.82,7169.46,cross-region transfer,P1
+2026-06-22,Serverless,idle-resource-growth,2141.37,4282.75,non-prod left running,P2
+2026-04-20,Analytics/ML,storage-growth,2122.97,4245.94,missing lifecycle policy,P2
+2026-04-13,Backup/Snapshots,unbudgeted-service,1674.5,5023.51,new service launched,P1
+2026-05-22,Compute,runaway-autoscaling,716.86,896.07,misconfigured max capacity,P4
+2026-04-10,Storage,deployment-spike,1240.43,3721.29,large deployment,P1
+2026-05-29,Database,unexpected-egress,472.86,945.71,cross-region transfer,P2
+2026-03-09,Data Transfer,idle-resource-growth,419.42,838.85,non-prod left running,P2
+2026-01-13,Networking,storage-growth,2319.84,4639.68,missing lifecycle policy,P2
+2026-05-10,Monitoring,unbudgeted-service,724.33,2172.98,new service launched,P1
+2026-05-23,Security & Compliance,runaway-autoscaling,1668.84,5006.51,misconfigured max capacity,P1
+2026-01-16,Messaging,deployment-spike,1108.32,1662.48,large deployment,P3
+2026-06-26,Kubernetes/EKS,unexpected-egress,1408.31,2112.46,cross-region transfer,P3
+2026-06-08,Serverless,idle-resource-growth,2095.44,2619.3,non-prod left running,P4
+2026-01-15,Analytics/ML,storage-growth,1575.13,1968.91,missing lifecycle policy,P4
+2026-02-12,Backup/Snapshots,unbudgeted-service,349.34,524.02,new service launched,P3
+2026-01-30,Compute,runaway-autoscaling,2468.69,3703.03,misconfigured max capacity,P3
+2026-01-14,Storage,deployment-spike,379.89,1519.57,large deployment,P1
+2026-02-03,Database,unexpected-egress,1569.68,1962.1,cross-region transfer,P4
+2026-03-02,Data Transfer,idle-resource-growth,1214.29,2428.57,non-prod left running,P2
+2026-06-19,Networking,storage-growth,639.43,959.15,missing lifecycle policy,P3
+2026-03-09,Monitoring,unbudgeted-service,1275.23,1594.04,new service launched,P4
+2026-02-16,Security & Compliance,runaway-autoscaling,1359.51,2719.02,misconfigured max capacity,P2
+2026-02-03,Messaging,deployment-spike,432.11,864.23,large deployment,P2
+2026-03-05,Kubernetes/EKS,unexpected-egress,1628.41,6513.65,cross-region transfer,P1
+2026-01-27,Serverless,idle-resource-growth,2244.56,6733.67,non-prod left running,P1
+2026-04-29,Analytics/ML,storage-growth,1816.68,3633.37,missing lifecycle policy,P2
+2026-06-16,Backup/Snapshots,unbudgeted-service,752.38,1128.57,new service launched,P3
+2026-02-12,Compute,runaway-autoscaling,2134.33,4268.67,misconfigured max capacity,P2
+2026-05-07,Storage,deployment-spike,2393.82,3590.73,large deployment,P3
+2026-03-07,Database,unexpected-egress,1081.62,2163.24,cross-region transfer,P2
+2026-01-21,Data Transfer,idle-resource-growth,1852.29,7409.16,non-prod left running,P1
+2026-06-21,Networking,storage-growth,506.42,633.03,missing lifecycle policy,P4
+2026-03-12,Monitoring,unbudgeted-service,476.06,952.13,new service launched,P2
+2026-02-01,Security & Compliance,runaway-autoscaling,1365.98,2731.96,misconfigured max capacity,P2
+2026-06-20,Messaging,deployment-spike,1077.06,2154.11,large deployment,P2
+2026-02-28,Kubernetes/EKS,unexpected-egress,331.68,414.6,cross-region transfer,P4
+2026-06-03,Serverless,idle-resource-growth,1872.3,2340.37,non-prod left running,P4
+2026-01-31,Analytics/ML,storage-growth,1770.74,5312.23,missing lifecycle policy,P1
+2026-05-07,Backup/Snapshots,unbudgeted-service,1715.25,2572.88,new service launched,P3
+2026-01-18,Compute,runaway-autoscaling,657.17,985.76,misconfigured max capacity,P3
+2026-04-17,Storage,deployment-spike,491.41,982.83,large deployment,P2
+2026-03-03,Database,unexpected-egress,425.34,638.01,cross-region transfer,P3
+2026-06-26,Data Transfer,idle-resource-growth,1952.63,2928.95,non-prod left running,P3
+2026-04-03,Networking,storage-growth,1980.6,2970.89,missing lifecycle policy,P3
+2026-06-07,Monitoring,unbudgeted-service,837.36,1256.04,new service launched,P3
+2026-01-06,Security & Compliance,runaway-autoscaling,1297.83,2595.65,misconfigured max capacity,P2
+2026-01-24,Messaging,deployment-spike,2306.51,6919.54,large deployment,P1
+2026-04-20,Kubernetes/EKS,unexpected-egress,1032.87,1291.09,cross-region transfer,P4
+2026-06-27,Serverless,idle-resource-growth,2248.58,3372.87,non-prod left running,P3
+2026-05-08,Analytics/ML,storage-growth,402.01,1206.03,missing lifecycle policy,P1
+2026-05-04,Backup/Snapshots,unbudgeted-service,457.92,686.87,new service launched,P3
+2026-04-09,Compute,runaway-autoscaling,864.68,2594.04,misconfigured max capacity,P1
+2026-04-07,Storage,deployment-spike,1893.71,3787.43,large deployment,P2
+2026-04-22,Database,unexpected-egress,2061.57,4123.13,cross-region transfer,P2
+2026-01-28,Data Transfer,idle-resource-growth,1663.23,2494.84,non-prod left running,P3
+2026-02-13,Networking,storage-growth,792.28,1584.56,missing lifecycle policy,P2
+2026-06-02,Monitoring,unbudgeted-service,1873.3,2341.62,new service launched,P4
+2026-06-23,Security & Compliance,runaway-autoscaling,1085.22,2170.44,misconfigured max capacity,P2
+2026-03-18,Messaging,deployment-spike,2381.16,3571.74,large deployment,P3
+2026-03-05,Kubernetes/EKS,unexpected-egress,787.64,984.55,cross-region transfer,P4
+2026-01-06,Serverless,idle-resource-growth,921.96,1843.91,non-prod left running,P2
+2026-05-25,Analytics/ML,storage-growth,651.45,977.18,missing lifecycle policy,P3
+2026-01-02,Backup/Snapshots,unbudgeted-service,1170.07,2340.15,new service launched,P2
+2026-06-24,Compute,runaway-autoscaling,1559.83,6239.3,misconfigured max capacity,P1
+2026-03-02,Storage,deployment-spike,1171.8,3515.39,large deployment,P1
+2026-02-02,Database,unexpected-egress,2150.07,4300.14,cross-region transfer,P2
+2026-03-02,Data Transfer,idle-resource-growth,1707.6,2561.4,non-prod left running,P3
+2026-01-21,Networking,storage-growth,1141.36,3424.07,missing lifecycle policy,P1
+2026-01-07,Monitoring,unbudgeted-service,2339.37,3509.06,new service launched,P3
+2026-02-12,Security & Compliance,runaway-autoscaling,1758.76,3517.51,misconfigured max capacity,P2
+2026-06-22,Messaging,deployment-spike,554.42,693.02,large deployment,P4

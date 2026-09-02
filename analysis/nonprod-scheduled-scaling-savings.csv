@@ -1,0 +1,2 @@
+nonprod_instances,hourly_cost,shutdown_start_ist,startup_ist,weekdays,weekend_days,offhours_weekday,weekend_hours,weekday_offhours_monthly_savings_usd,weekend_monthly_savings_usd,estimated_monthly_savings_usd,estimated_annual_savings_usd,note
+30,0.1,19:00,09:00,5,2,14,48,210.0,625.68,835.68,10028.16,Planning scenario; replace instance count/rate with billing data before claiming realized savings.

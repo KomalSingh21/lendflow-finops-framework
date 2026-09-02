@@ -1,0 +1,7 @@
+method,mechanism,strengths,tradeoffs,best_fit,readiness
+Static threshold,Fixed dollar/% threshold,Fast and explainable,Weak with seasonality/growth,Hard guardrails,High
+Z-score,Rolling mean/std deviation,Simple and interpretable,Sensitive to distribution/outliers,Stable cost series,Medium
+IQR,Quartile outlier detection,Robust to extreme values,Weak on strong seasonality,Daily cost distributions,Medium
+Isolation Forest,Unsupervised multivariate outlier scoring,Captures nonlinear/multivariate outliers,Needs feature engineering/tuning,Cross-resource anomaly scoring,Medium
+Prophet,Forecast + residual analysis,Strong for trend/seasonality,Higher operating complexity,Seasonal service spend,Medium
+AWS CloudWatch Anomaly Detection,Managed statistical/ML baseline,Managed and adaptive; trend/seasonality aware,Metric-oriented; tuning/warm-up required,Operational metrics,High

@@ -1,0 +1,22 @@
+service: credit-scoring-engine
+autoscaling:
+  min_capacity: 4
+  max_capacity: 24
+  scale_out:
+    metric: queue_depth_per_worker
+    threshold: 35
+    evaluation_periods: 2
+    cooldown_seconds: 120
+    action: add_2
+  scale_in:
+    metric: queue_depth_per_worker
+    threshold: 15
+    evaluation_periods: 20
+    cooldown_seconds: 1200
+    action: remove_1
+spot:
+  max_percentage: 50
+compliance:
+  - PCI_DSS_access_controls
+  - SOC2_auditability
+  - RBI_resilience

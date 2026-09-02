@@ -1,0 +1,6 @@
+Dimension,Crawl,Walk,Run
+Visibility,Monthly service spend; basic tagging; >80% allocation,Team/project allocation; >95% tags; daily dashboards,Near-real-time allocation; unit economics and trusted forecasts
+Optimization,Ad hoc rightsizing and cleanup,Prioritized backlog and realized-savings tracking,Continuous optimization with automated recommendations and regression controls
+Governance,Named owner and basic alerts,RACI plus recurring reviews and escalation,Embedded governance and automated approval gates
+Automation,Manual reports/remediation,Automated anomaly alerts and scheduled scaling,Closed-loop safe remediation with evidence
+Culture,Engineering views cost as finance concern,Service teams own cost,Cost is shared KPI tied to unit economics
