@@ -10,8 +10,6 @@ The operating model connects AWS workload telemetry and cost data to three FinOp
 - **Optimise** — identify, quantify and prioritise cost opportunities using engineering evidence.
 - **Operate** — enforce governance, automate repeatable controls and measure realised outcomes.
 
-![LendFlow FinOps Architecture & Operating Model](architecture-operating-model.png)
-
 ## Operating Model
 
 ```mermaid
