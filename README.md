@@ -322,7 +322,18 @@ See [`finops/automation.md`](finops/automation.md) and the executable/reference 
 
 ## Dashboards
 
-Three dashboard perspectives were designed to provide different levels of decision support.
+
+### Executive
+
+![Executive FinOps Dashboard](dashboards/executive-dashboard-mockup.png)
+
+### Engineering Manager
+
+![Engineering Manager Dashboard](dashboards/engineering-manager-dashboard-mockup.png)
+
+### Team
+
+![Team FinOps Dashboard](dashboards/team-dashboard-mockup.png)
 
 ### Executive
 
