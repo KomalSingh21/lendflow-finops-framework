@@ -39,8 +39,10 @@ This repository intentionally distinguishes analysis and design work from produc
 | Executive reporting | **Implemented as case-study artefact** |
 | Production AWS deployment | **Not performed** |
 
----
+## Architecture at a Glance
+![LendFlow FinOps Architecture & Operating Model](architecture/architecture-operating-model.png)
 
+---
 ## Business Problem
 
 LendFlow's AWS spend increased from approximately **$50,000/month in January 2026 to $180,000/month in June 2026** while business revenue approximately doubled.
